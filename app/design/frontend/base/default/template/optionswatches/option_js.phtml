@@ -1,5 +1,17 @@
-<?php 
-$hkswatches = $this->get_option_swatches();
+<?php
+$pageName = $this->getRequest()->getControllerName();
+if($pageName=="category")
+{
+    $isEnabled = Mage::getStoreConfig('optionswatches/image/enabled',Mage::app()->getStore() == 1);
+}
+if($pageName=="product")
+{
+    $isEnabled = Mage::getStoreConfig('optionswatches/image/view_enabled',Mage::app()->getStore() == 1);
+}
+
+if($isEnabled == 1)
+{
+    $hkswatches = $this->get_option_swatches();
 ?>
 
 <script type="text/javascript">
@@ -124,3 +136,4 @@ $hkswatches = $this->get_option_swatches();
 		}
 	});
 </script>
+<?php } ?>
