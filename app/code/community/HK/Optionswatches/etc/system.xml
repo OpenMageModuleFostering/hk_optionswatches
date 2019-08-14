@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+
+<config>
+    <sections>
+        <optionswatches translate="label" module="optionswatches">
+            <label>HK Optionswatches Settings</label>
+            <tab>general</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+			<groups>
+                <image translate="label">
+                    <label>Image Configure</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>  
+					 <fields>
+						<option_swatches translate="label comment">
+							<label>Custom Option Swatches</label>
+							<frontend_type>textarea</frontend_type>
+                            <sort_order>26</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+							<comment><![CDATA[
+								<p>Format: <em>[option label]</em> : <em>[option value]</em> = <em>[option image]</em></p>
+								<p>Example:</p>
+								<p>
+								Size : Small = small.png<br/>
+								Color : Red = red.png<br/>
+								</p>
+								<p>Swatch images should be uploaded in <strong>media/hk_option_swatches/</strong></p>
+								]]></comment>
+						</option_swatches>
+                    </fields>
+                </image>
+			</groups>
+        </optionswatches>
+    </sections>
+</config>

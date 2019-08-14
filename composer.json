@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/HK_Optionswatches",
+    "type": "magento-module",
+    "license": "OLS-v3.0",
+    "homepage": "",
+    "description": "HK Option Swatches Magento Extension",
+    "authors": [
+    {
+        "name": "Hardik",
+        "email": "hkpatel201@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
