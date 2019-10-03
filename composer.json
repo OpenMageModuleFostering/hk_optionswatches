@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/HK_Optionswatches",
+    "name": "openmage-module-fostering\/hk_optionswatches",
     "type": "magento-module",
-    "license": "OLS-v3.0",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "HK Option Swatches Magento Extension",
     "authors": [
